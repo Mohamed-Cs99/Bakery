@@ -8,6 +8,44 @@ body {
     box-sizing: border-box;
 }
 
+/* Nav Bar */
+.navbar {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: gray
+}
+
+.nav {
+    width: 50%;
+    float: left;
+    padding-top: 25px;
+}
+
+.nav span {
+
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.logo {
+
+    text-align: left;
+}
+
+.logo img {
+
+    width: 25%;
+    padding-bottom: 10px;
+}
+
+
+
+
+
 /* Fixied Side BAr */
 .side {
     width: 45px;
@@ -288,16 +326,17 @@ body {
 /*Ending of about section  */
 
 
-.final-sec{
+.final-sec {
     background-color: #353330;
     text-align: center;
     padding-bottom: 40px;
 }
-.final-sec img{
+
+.final-sec img {
     margin: 30px 0px 20px;
 }
 
-.final-sec p{
+.final-sec p {
     color: #777;
 }
 
@@ -313,13 +352,13 @@ body {
 }
 
 @media screen and (max-width:600px) {
-    .bake_item, .s2, .s3,.contacts,.ab {
+    .bake_item, .s2, .s3, .contacts, .ab {
         width: 100%;
     }
 }
 
 @media screen and (min-width:601px) and (max-width:786Px) {
-    .bake_item ,.ab{
+    .bake_item, .ab {
         width: 50%;
     }
 
